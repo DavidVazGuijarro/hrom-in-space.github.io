@@ -153,8 +153,7 @@
 }
 
 .navigate>a:active {
-
-text-shadow: 0px 0px 17px rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
 }
 
 /*-----------------*\
@@ -201,8 +200,24 @@ text-shadow: 0px 0px 17px rgba(255, 255, 255, 1);
 
 
 /*-----------------*\
-    #
+    #Promo
 \*-----------------*/
+
+.block1, .block2, .block3 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5px;
+} 
 
 .promo h4,
 .promo p,
@@ -213,6 +228,43 @@ text-shadow: 0px 0px 17px rgba(255, 255, 255, 1);
     text-decoration: none;
     text-align: center;
 }
+
+.promo h4 {
+    font-size: 2em;
+}
+
+.promo p {
+    font-family: 'Lato', sans-serif;
+    color: rgb(127, 140, 141);
+    font-weight: 100;
+    line-height: 1.5em;
+    margin: 1.6em 0;
+}
+
+
+.promo a {
+    text-decoration: none;
+    inherit: none;
+    border: 1px solid #16a085;
+    padding: 0.40em 1.4em;
+    margin-bottom: 0.5em;
+}
+.promo a:hover {
+    border: 1px solid #16a085;
+    color: #16a085;
+}
+
+.promo a:active {
+    box-shadow: 0px 0px 10px 0px rgba(22,160,133,1);
+}
+
+/*-----------------*\
+    #Posts
+\*-----------------*/
+
+
+
+
 
 .posts h4,
 .posts p,
@@ -230,9 +282,14 @@ text-shadow: 0px 0px 17px rgba(255, 255, 255, 1);
     max-width: 300px;
 }
 
+/*-----------------*\
+    #
+\*-----------------*/
+
+
 h2 {
-    -webkit-align-self:flex-start;
-        -ms-flex-item-align:start;
+    -ms-flex-item-align:start;
+            -webkit-align-self:flex-start;
             align-self:flex-start;
     
 }
