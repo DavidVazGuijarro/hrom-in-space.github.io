@@ -6,24 +6,25 @@
     background-color: #16a085;
     border-top: 1px solid #16a085;
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
 }
 
 .blue {
     background-color: #354556;
-    display: flex;
+    display: -webkit-flex;
     justify-content: center;
 }
 
 .white {
     background-color: #ffffff;
-    display: flex;
+    display: -webkit-flex;
     justify-content: center;
 }
 
 .brown {
     background-color: #ecf0f1;
-    display: flex;
+    display: -webkit-flex;
     align-items: center;
     flex-direction: column;
 }
@@ -32,7 +33,7 @@
 .conteiner {
     flex: 1;
     max-width: 960px;
-    display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     align-items: center;
 }
