@@ -164,7 +164,7 @@
     display: none;
     }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {*/
   .nav_toggle {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -206,7 +206,7 @@
         margin: 0px;
         padding: 0px;
     }
-  }
+
 
 
 
