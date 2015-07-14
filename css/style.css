@@ -159,18 +159,18 @@
 .navigate>a:active {
     text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
 }
-
+/*
 .nav_toggle {
     display: none;
     }
-
+*/
 /*@media screen and (max-width: 600px) {*/
-  .nav_toggle {
+/*  .nav_toggle {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     }
-
+*/
    /* .navigate {
         display: none;*/
 
