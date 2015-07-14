@@ -14,12 +14,11 @@
 </head>
 <body>
     <div class="green header flex center">
-        <div ID="navigate2" class="conteiner flex center space_between nav__items-visible2">
+        <div ID="navigate2" class="conteiner flex center space_between">
             <a class="logo" href="">Whitesquare</a>
             <a href="#" ID="nav_toggle" class="nav_toggle"></a>
-            <a class="ext" href="">Подробнее</a>
-            <nav ID="navigate" class="navigate flex column center nav__items-visible">
-                <a href="">Главная_23.02.......</a>
+            <nav ID="navigate" class="navigate flex column center">
+                <a href="">Главная_21.28</a>
                 <a href=""><p>О нас</p></a>
                 <a href=""><p>Услуги</p></a>
                 <a href=""><p>Блог</p></a>
@@ -27,27 +26,13 @@
             </nav>
         </div>
     </div>
-
-    <!-- <div class="brown flex center">
-        div.conteiner.flex.center.space_between.
-    </div> -->
-
     <div class="blue banner flex center">
-        <div class="conteiner banner flex space_between center nav__items-visible2">
+        <div class="conteiner banner flex column center">
             <h1>Сила ветра</h1>
             <h3>Lorem, ipsum & dolor.</h3>
             <a href="">Подробнее</a>
         </div>
     </div>
-
-    <!-- <div class="blue banner flex center">
-        <div class="conteiner flex column center">
-            <h1>Сила ветра</h1>
-            <h3>Lorem, ipsum & dolor.</h3>
-            <a href="">Подробнее</a>
-        </div>
-    </div> -->
-
     <div class="white flex center">
         <div class="conteiner promo">
             <div class="block1">
@@ -67,7 +52,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="brown flex center">
+    <div class="brown flex center">
         <div class="posts">
             <h2>Последние новости</h2>
             <div class="post1">
@@ -112,21 +97,21 @@
                 <li>Карта</li>
             </ul>
         </div>
-    </div> -->
-// <script>
-//     (function() 
-//         {
-//         var toggle = document.querySelector("#nav_toggle");
-//         var nav = document.querySelector("#navigate");
-//         var nav2 = document.querySelector("#navigate2");
-//         toggle.addEventListener("click", function(e) 
-//             {
-//             e.preventDefault();
-//             nav.classList.contains("nav__items-visible") ? nav.classList.remove("nav__items-visible") : nav.classList.add("nav__items-visible");
-//             nav2.classList.contains("nav__items-visible2") ? nav2.classList.remove("nav__items-visible2") : nav2.classList.add("nav__items-visible2");
-//             });
-//         }
-//     )();
-//     </script>
+    </div>
+<script>
+    (function() 
+        {
+        var toggle = document.querySelector("#nav_toggle");
+        var nav = document.querySelector("#navigate");
+        var nav2 = document.querySelector("#navigate2");
+        toggle.addEventListener("click", function(e) 
+            {
+            e.preventDefault();
+            nav.classList.contains("nav__items-visible") ? nav.classList.remove("nav__items-visible") : nav.classList.add("nav__items-visible");
+            nav2.classList.contains("nav__items-visible2") ? nav2.classList.remove("nav__items-visible2") : nav2.classList.add("nav__items-visible2");
+            });
+        }
+    )();
+    </script>
 </body>
 </html>
