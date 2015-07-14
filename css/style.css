@@ -233,13 +233,18 @@ display: flex;
     }
 
     .navigate a {
-        border-top: 3px groove #16A086; 
+        border: 3px groove #16A086; 
         margin: 0px 10px;
         -webkit-flex-basis: 100%;
             -ms-flex-preferred-size: 100%;
                 flex-basis: 100%;
         /*padding: 15px 5px 15px 5px;*/
     }
+
+    
+
+
+
     .navigate p {
         margin: 0px;
         padding: 0px;
@@ -309,7 +314,7 @@ display: flex;
     border: 1px solid white;
     border-radius: 4px;
     background-color: #354556;
-    padding: 0.9em 2.6em;
+    /*padding: 0.9em 2.6em;*/
 }
 .banner>a:hover {
     border: 1px solid #16a085;
