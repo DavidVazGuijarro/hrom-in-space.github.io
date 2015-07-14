@@ -161,6 +161,31 @@
     /*padding: 15px 5px 15px 5px;*/
 }
 
+.navigate>a:nth-child(1) {
+    display: flex;
+}
+.navigate>a:nth-child(2) {
+display: inline-flex;
+}
+.navigate>a:nth-child(3) {
+display: inline-block;
+}
+.navigate>a:nth-child(4) {
+display: block;
+}
+.navigate>a:nth-child(5) {
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+
 .navigate>a:hover {
     color: white;
 }
