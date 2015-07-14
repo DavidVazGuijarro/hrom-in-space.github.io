@@ -146,16 +146,6 @@
     text-decoration: none;
 }
 
-.navigate p {
-    text-align: center;
-}
-
-
-
-.navigate a {
-    /*padding: 15px 5px 15px 5px;*/
-}
-
 
 
 .navigate>a:hover {
@@ -179,9 +169,6 @@
 
     .navigate {
         display: none;
-        -webkit-flex-basis: 100%;
-            -ms-flex-preferred-size: 100%;
-                flex-basis: 100%;
 
     }
 
@@ -195,10 +182,7 @@
         margin: 5px;
     }
     
-    .second {
-        border: 3px solid black;
-    }
-    
+   
 
     .logo {
         -webkit-flex-basis: 50%;
