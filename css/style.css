@@ -214,7 +214,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
+    /*-webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
     -webkit-align-items: stretch;
@@ -222,7 +222,7 @@
             align-items: stretch;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: center;*/
 }
 .nav__items-visible2 {
     -webkit-flex-wrap: wrap;
