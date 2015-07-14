@@ -131,6 +131,7 @@
     font-weight: 100;
     padding: 10px 0;
     text-decoration: none;
+    margin-left: 5px;
 }
 
 /*-----------------*\
@@ -179,8 +180,18 @@
     }
 
     .nav_toggle {
-        flex-basis: 50%;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 4px;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        margin: 5px;
     }
+    
+ 
+
+
     .logo {
         flex-basis: 50%;
     }
@@ -202,7 +213,7 @@
 }
 .nav__items-visible2 {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
