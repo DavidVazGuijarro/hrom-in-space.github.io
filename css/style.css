@@ -171,8 +171,8 @@
     display: flex;
     }
 
-    .navigate {
-        display: none;
+   /* .navigate {
+        display: none;*/
 
     }
 
@@ -210,10 +210,10 @@
 
 
 
-.nav__items-visible {
+/*.nav__items-visible {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: flex;*/
     /*-webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
