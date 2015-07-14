@@ -157,8 +157,8 @@
     display: flex;
 }
 
-.navigate>a {
-    padding: 15px 5px 15px 5px;
+.navigate a {
+    /*padding: 15px 5px 15px 5px;*/
 }
 
 .navigate>a:hover {
@@ -213,7 +213,7 @@
         -webkit-flex-basis: 100%;
             -ms-flex-preferred-size: 100%;
                 flex-basis: 100%;
-        padding: 15px 5px 15px 5px;
+        /*padding: 15px 5px 15px 5px;*/
     }
     .navigate p {
         margin: 0px;
