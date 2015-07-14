@@ -147,6 +147,8 @@
     border: 1px solid white;
     border-radius: 4px;
     margin: 0px;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
     flex-basis: auto;
 }
 
