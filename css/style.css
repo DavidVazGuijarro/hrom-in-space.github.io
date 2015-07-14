@@ -147,7 +147,6 @@
 }
 
 .navigate p {
-    margin: 0;
     text-align: center;
 }
 
@@ -280,11 +279,11 @@
 
 .banner>a {
     text-decoration: none;
-    inherit: none;
-    border: 1px solid white;
+/*    inherit: none;
+*/    border: 1px solid white;
     border-radius: 4px;
-    background-color: #354556;
-    /*padding: 0.9em 2.6em;*/
+/*    background-color: #354556;
+*/    /*padding: 0.9em 2.6em;*/
 }
 .banner>a:hover {
     border: 1px solid #16a085;
