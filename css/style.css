@@ -197,17 +197,17 @@
     .navigate a {
         border-top: 3px groove #16A086; 
         margin: 0px 10px;
-/*        -webkit-flex-basis: 100%;
+        -webkit-flex-basis: 100%;
             -ms-flex-preferred-size: 100%;
                 flex-basis: 100%;
-*/        /*padding: 15px 5px 15px 5px;*/
+        /*padding: 15px 5px 15px 5px;*/
     }
-/*    .navigate p {
+    .navigate p {
         margin: 0px;
         padding: 0px;
     }
 
-*/
+
 
 
 /*.nav__items-visible {
