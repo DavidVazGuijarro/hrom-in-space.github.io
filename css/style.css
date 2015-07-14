@@ -198,7 +198,7 @@
     }
     
  
-
+    
 
     .logo {
         -webkit-flex-basis: 50%;
@@ -208,10 +208,14 @@
 
     .navigate a {
         border-top: 3px groove #16A086; 
-        /*margin: 0px 10px;*/
+        margin: 0px 10px;
         -webkit-flex-basis: 100%;
             -ms-flex-preferred-size: 100%;
                 flex-basis: 100%;
+    }
+    .navigate p {
+        margin: 0px;
+        padding: 0px;
     }
   }
 
