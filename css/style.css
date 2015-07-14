@@ -159,12 +159,6 @@
 
 
 
-
-
-
-
-
-
 .navigate>a:hover {
     color: white;
 }
@@ -177,7 +171,7 @@
     display: none;
     }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .nav_toggle {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -283,7 +277,7 @@
     margin-top: -0.1em;
     margin-bottom: 1.5em;
 }
-@media all and (max-width: 600px) {
+
 .banner>a {
     text-decoration: none;
     inherit: none;
@@ -300,7 +294,7 @@
 .banner>a:active {
     box-shadow: 0px 0px 10px 0px rgba(22,160,133,1);
 }
-}
+
 
 
 /*-----------------*\
