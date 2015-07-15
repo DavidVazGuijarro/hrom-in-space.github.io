@@ -207,7 +207,7 @@
     }
 
     .navigate a {
-        border-top: 1px solid white;
+        border-bottom: 1px solid white;
         -ms-flex-preferred-size: auto;
             -webkit-flex-basis: auto;
                 flex-basis: auto;
@@ -236,7 +236,7 @@
 
 
 
-    .anim {
+    .animation {
         visibility: visible;
         max-height: 500px;
         transition-property: all;
@@ -244,6 +244,9 @@
         -webkit-justify-content: flex-end;
             -ms-flex-pack: end;
                 justify-content: flex-end;
+    }
+    .header_sub {
+        border-bottom: 1px solid white;
     }
 }
 
