@@ -154,9 +154,9 @@
     font-weight: 100;
     text-decoration: none;
     margin: 0px;
-    -ms-flex-preferred-size: auto;
-            -webkit-flex-basis: auto;
-            flex-basis: auto;
+    -ms-flex-preferred-size: 1;
+            -webkit-flex-basis: 1;
+            flex-basis: 1;
     text-align: center;
     padding: 15px 5px;
 
@@ -230,7 +230,7 @@
     .flex {
         -ms-flex-preferred-size: 100%;
             -webkit-flex-basis: 100%;
-                flex-basis: 100%
+                flex-basis: 100%;
     }
 
 
