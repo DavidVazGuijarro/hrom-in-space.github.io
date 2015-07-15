@@ -179,7 +179,7 @@
     }
 
     .nav_toggle {
-        background-image: url(/img/munu.png);
+        background-image: url(/img/menu.png);
         padding: 5px;
         border-left: 1px solid white;
         width: 40px;
@@ -195,12 +195,11 @@
     }
 
     .navigate a {
-        border-top: 3px groove #16A086; 
-        margin: 0px 10px;
+        border-top: 1px solid white; 
         -webkit-flex-basis: auto;
             -ms-flex-preferred-size: auto;
                 flex-basis: auto;
-        padding: 15px 5px 15px 5px;
+        padding: 15px 0px;
     }
     .navigate p {
         margin: 0px;
