@@ -74,7 +74,6 @@
 
 .banner {
     height: 550px;
-    z-index: 5;
 }
 
 .promo {
@@ -153,7 +152,7 @@
     text-decoration: none;
     margin: 0px;
     -ms-flex-preferred-size: auto;
-    -webkit-flex-basis: auto;
+            -webkit-flex-basis: auto;
             flex-basis: auto;
     text-align: center;
 }
@@ -177,8 +176,8 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-basis: auto;
-        -ms-flex-preferred-size: auto;
+    -ms-flex-preferred-size: auto;
+        -webkit-flex-basis: auto;
             flex-basis: auto;
     }
 
@@ -203,14 +202,14 @@
 
     .logo {
         -ms-flex-preferred-size: 50%;
-            -webkit-flex-basis: 50%;
+                -webkit-flex-basis: 50%;
                 flex-basis: 50%;
     }
 
     .navigate a {
         border-top: 1px solid white;
         -ms-flex-preferred-size: auto;
-            -webkit-flex-basis: auto;
+                -webkit-flex-basis: auto;
                 flex-basis: auto;
         padding: 15px 0px;
         font-weight: 400;
@@ -239,8 +238,8 @@
 
     .anim {
         visibility: visible;
-        height: 255px;
-        transition-property: height;
+        height: 16em;
+        transition-property: all;
         transition-duration: 1s;
         -webkit-justify-content: flex-end;
             -ms-flex-pack: end;
@@ -268,11 +267,11 @@
     font-weight: 100;
     color: white;
     -ms-flex-preferred-size: 100%;
-        -webkit-flex-basis: 100%;
+            -webkit-flex-basis: 100%;
             flex-basis: 100%;
     margin: 0;
     -ms-flex-preferred-size: auto;
-        -webkit-flex-basis: auto;
+            -webkit-flex-basis: auto;
             flex-basis: auto;
 }
 
