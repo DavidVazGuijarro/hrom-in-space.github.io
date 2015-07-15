@@ -227,11 +227,8 @@
                 -webkit-flex-basis: auto;
                 flex-basis: auto;
         font-weight: 400;
-
-    }
-    .navigate p {
-        margin: 0px;
-        padding: 0px;
+        height: auto;
+ 
     }
         
     .flex {

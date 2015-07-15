@@ -106,10 +106,12 @@
         var toggle = document.querySelector("#nav_toggle");
         var nav = document.querySelector("#navigate");
         var navigate2 = document.querySelector("#navigate2");
+
         toggle.addEventListener("click", function(e) {
             e.preventDefault();
             nav.classList.contains("animation") ? nav.classList.remove("animation") : nav.classList.add("animation");
             navigate2.classList.contains("header_sub") ? navigate2.classList.remove("header_sub") : navigate2.classList.add("header_sub");
+            
             });
         }
     )();
