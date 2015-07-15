@@ -153,12 +153,12 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-decoration: none;
-    margin: 0px;
     -ms-flex-preferred-size: 1;
             -webkit-flex-basis: 1;
             flex-basis: 1;
     text-align: center;
     padding: 15px 5px;
+    display: block;
 
 }
 
