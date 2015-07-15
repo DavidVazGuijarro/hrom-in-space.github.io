@@ -142,7 +142,7 @@
 .navigate a {
     color: #9bded1;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     text-decoration: none;
     margin: 0px;
     -webkit-flex-basis: auto;
@@ -200,6 +200,7 @@
             -ms-flex-preferred-size: auto;
                 flex-basis: auto;
         padding: 15px 0px;
+        font-weight: 400;
     }
     .navigate p {
         margin: 0px;
