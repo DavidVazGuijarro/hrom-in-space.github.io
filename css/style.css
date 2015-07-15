@@ -58,7 +58,9 @@
 }
 
 .wrap {
-    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
 }
 
 
@@ -150,9 +152,9 @@
     font-weight: 100;
     text-decoration: none;
     margin: 0px;
-    -webkit-flex-basis: auto;
     -ms-flex-preferred-size: auto;
-    flex-basis: auto;
+    -webkit-flex-basis: auto;
+            flex-basis: auto;
     text-align: center;
 }
 
@@ -175,7 +177,9 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    flex-basis: auto;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
     }
 
     .navigate {
@@ -198,15 +202,15 @@
 
 
     .logo {
-        -webkit-flex-basis: 50%;
-            -ms-flex-preferred-size: 50%;
+        -ms-flex-preferred-size: 50%;
+            -webkit-flex-basis: 50%;
                 flex-basis: 50%;
     }
 
     .navigate a {
-        border-top: 1px solid white; 
-        -webkit-flex-basis: auto;
-            -ms-flex-preferred-size: auto;
+        border-top: 1px solid white;
+        -ms-flex-preferred-size: auto;
+            -webkit-flex-basis: auto;
                 flex-basis: auto;
         padding: 15px 0px;
         font-weight: 400;
@@ -238,7 +242,9 @@
         height: 255px;
         transition-property: height;
         transition-duration: 1s;
-        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
     }
 
 
@@ -261,12 +267,12 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: white;
-    -webkit-flex-basis: 100%;
-        -ms-flex-preferred-size: 100%;
+    -ms-flex-preferred-size: 100%;
+        -webkit-flex-basis: 100%;
             flex-basis: 100%;
     margin: 0;
-    -webkit-flex-basis: auto;
-        -ms-flex-preferred-size: auto;
+    -ms-flex-preferred-size: auto;
+        -webkit-flex-basis: auto;
             flex-basis: auto;
 }
 
