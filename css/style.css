@@ -223,12 +223,8 @@
 
     .navigate a {
         border-bottom: 1px solid white;
-        -ms-flex-preferred-size: auto;
-                -webkit-flex-basis: auto;
-                flex-basis: auto;
         font-weight: 400;
-        height: auto;
- 
+
     }
         
     .flex {
