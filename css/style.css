@@ -4,6 +4,7 @@
 
 .blue {
     background-color: #354556;
+    z-index: 5;
 }
 
 .white {
@@ -56,6 +57,9 @@
             justify-content: space-between;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
 
 
 /*-----------------*\
@@ -68,6 +72,7 @@
 
 .banner {
     height: 550px;
+    z-index: 5;
 }
 
 .promo {
@@ -149,7 +154,6 @@
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
     text-align: center;
-
 }
 
 
@@ -171,11 +175,16 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    flex-basis: auto;
     }
 
     .navigate {
         display: none;
+        z-index: 10;
+    }
 
+    .nav1 {
+        z-index: 15
     }
 
     .nav_toggle {
@@ -186,7 +195,7 @@
         height: 40px;
     }
     
-   
+
 
     .logo {
         -webkit-flex-basis: 50%;
@@ -201,37 +210,44 @@
                 flex-basis: auto;
         padding: 15px 0px;
         font-weight: 400;
+
     }
     .navigate p {
         margin: 0px;
         padding: 0px;
     }
+        
 
-}
 
 
-.nav__items-visible {
+    .nav__items-visible {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    visibility: hidden;
+    height: 0;
+    }
+
+
+
+    .anim {
+        visibility: visible;
+        height: 255px;
+        transition-property: height;
+        transition-duration: 1s;
+        justify-content: flex-end;
+    }
+
+
+
 }
-.nav__items-visible2 {
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-}
+
+
+
+
 
 
 /*-----------------*\
