@@ -146,6 +146,16 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 600px) {
+
+    .logo {
+        -ms-flex-preferred-size: 50%;
+        -webkit-flex-basis: 50%;
+        flex-basis: 50%;
+    }
+
+}
+
 /*-----------------*\
     #Navigation
 \*-----------------*/
@@ -174,9 +184,6 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-preferred-size: auto;
-            -webkit-flex-basis: auto;
-            flex-basis: auto;
     }
 
     .nav_toggle {
@@ -193,11 +200,7 @@
             flex-direction: column;
 }
 
-    .logo {
-        -ms-flex-preferred-size: 50%;
-                -webkit-flex-basis: 50%;
-                flex-basis: 50%;
-    }
+    
 
     .navigate a {
         border-bottom: 1px solid white;
