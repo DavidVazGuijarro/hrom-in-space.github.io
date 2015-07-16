@@ -280,16 +280,17 @@
 
 .block1, .block2, .block3 {
     padding: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-    -webkit-flex-basis: 33%;
-        -ms-flex-preferred-size: 33%;
+    -ms-flex-preferred-size: 33%;
+        -webkit-flex-basis: 33%;
             flex-basis: 33%;
 } 
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     /* For IE 10+ */
     .block1, .block2, .block3 {
-        flex-basis: auto;
+        -webkit-flex-basis: auto;
+            -ms-flex-preferred-size: auto;
+                flex-basis: auto;
     }
 }
 
@@ -327,7 +328,8 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     /* For IE 10+ */
-    .need p {
+    .need p,
+    .block3 h4{
         width: 30vw;
         max-width: 300px;
     }
