@@ -80,16 +80,9 @@
 
 
 
-.banner {
-    height: 550px;
-}
 
-.promo {
-    height: 374px;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-}
+
+
 
 
 .posts {
@@ -170,7 +163,7 @@
     display: none;
     }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 
     .nav_toggle {
         display: -webkit-flex;
@@ -198,9 +191,9 @@
         border-top: 1px solid white;
     }
         
-    .flex {
+    .n_flex {
         -ms-flex-preferred-size: 100%;
-            -webkit-flex-basis: 100%;
+                -webkit-flex-basis: 100%;
                 flex-basis: 100%;
     }
 
@@ -214,20 +207,18 @@
     #Banner
 \*-----------------*/
 
+.banner {
+    height: 550px;
+}
 
-.banner h1,
-.banner h3,
-.banner a {
+.banner>h1,
+.banner>h3,
+.banner>a {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: white;
-    -ms-flex-preferred-size: 100%;
-            -webkit-flex-basis: 100%;
-            flex-basis: 100%;
     margin: 0;
-    -ms-flex-preferred-size: auto;
-            -webkit-flex-basis: auto;
-            flex-basis: auto;
+    text-decoration: none;
 }
 
 .banner>h1 {
@@ -242,11 +233,8 @@
 }
 
 .banner>a {
-    text-decoration: none;
-    inherit: none;
     border: 1px solid white;
     border-radius: 4px;
-    background-color: #354556;
     padding: 0.9em 2.6em;
 }
 .banner>a:hover {
@@ -258,16 +246,15 @@
     box-shadow: 0px 0px 10px 0px rgba(22,160,133,1);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 
     .banner {
-    height: 250px;
+        height: 250px;
     }
 
-
     .banner>h1 {
-     font-size: 3em;
-     margin-top: 0.25em;
+        font-size: 3em;
+        margin-top: 0.25em;
     }
 
     .banner>h3 {
@@ -277,13 +264,9 @@
     }
     
     .banner>a {
-        text-decoration: none;
-        inherit: none;
-        border: 1px solid white;
-        border-radius: 4px;
-        background-color: #354556;
         padding: 0.5em 1.3em;
     }
+
 }
 
 
@@ -291,21 +274,25 @@
     #Promo
 \*-----------------*/
 
+.promo {
+    min-height: 374px;
+}
+
 .block1, .block2, .block3 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-flex-basis: 33%;
+        -ms-flex-preferred-size: 33%;
+            flex-basis: 33%;
 } 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* For IE 10+ */
+    .block1, .block2, .block3 {
+        flex-basis: auto;
+    }
+}
+
 
 .promo h4,
 .promo p,
@@ -315,10 +302,13 @@
     font-weight: 100;
     text-decoration: none;
     text-align: center;
+    margin: 0;
 }
 
 .promo h4 {
-    font-size: 2em;
+    font-size: 1.8em;
+    height: 2.5em;
+    margin-top: 1.3em;
 }
 
 .promo p {
@@ -326,18 +316,34 @@
     color: rgb(127, 140, 141);
     font-weight: 100;
     line-height: 1.5em;
-    margin: 1.6em 0;
+    
+}
+
+.need {
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* For IE 10+ */
+    .need p {
+        width: 30vw;
+        max-width: 300px;
+    }
 }
 
 
 .promo a {
     text-decoration: none;
     inherit: none;
+    display: inline;
     border: 1px solid #16a085;
     padding: 0.40em 1.4em;
     opacity: 0.8;
-    margin-bottom: 0.5em;
     font-weight: 400;
+    margin-bottom: 4.7em;
+
 }
 .promo a:hover {
     border: 1px solid #16a085;

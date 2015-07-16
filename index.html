@@ -4,22 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="true">   
 </head>
 <body>
-    <div class="green flex center">
-        <div class="conteiner flex wrap full space_between">
-        <div class="flex center space_between">
+    <div class="green flex n_flex center">
+        <div class="conteiner flex n_flex wrap full space_between">
+        <div class="flex n_flex center space_between">
             <a class="logo" href="">Whitesquare</a>
             <a href="#" ID="nav_toggle" class="nav_toggle"></a>
         </div>    
-        <nav ID="navigate" class="navigate flex m_column stretch visible">
+        <nav ID="navigate" class="navigate flex n_flex m_column stretch visible">
             <a href="">Главная</a>
             <a href="">О нас</a>
             <a href="">Услуги</a>
@@ -28,7 +28,7 @@
         </nav>  
         </div>
     </div>
-    <div class="blue banner flex center">
+    <div class="blue flex center">
         <div class="conteiner banner flex column center">
             <h1>Сила ветра</h1>
             <h3>Lorem, ipsum & dolor.</h3>
@@ -36,25 +36,27 @@
         </div>
     </div>
     <div class="white flex center">
-        <div class="conteiner promo">
-            <div class="block1">
+        <div class="conteiner promo flex space_between">
+            <div class="block1 flex column space_between center">
                 <h4>О нас</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facere, maxime, modi repellat ducimus id quis quia. A, adipisci, maxime.</p>
+                <div class=" need">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minus tempora, deserunt sunt, similique dolore nobis earum maxime excepturi eius quas. Animi, nemo, architecto!</p>
+                </div>
                 <a href="">Подробнее</a>
             </div>
-            <div class="block2">
+            <div class="block2 flex column space_between center">
                 <h4>Сила ветра</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facere, maxime, modi repellat ducimus id quis quia. A, adipisci, maxime.</p>
+                <div class=" need"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis at possimus vitae sunt doloremque animi enim, commodi?</p></div>
                 <a href="">Читать дальше</a>
             </div>
-            <div class="block3">
+            <div class="block3 flex column space_between center">
                 <h4>Дешевая энергия</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facere, maxime, modi repellat ducimus id quis quia. A, adipisci, maxime.</p>
+                <div class=" need"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquam ipsam exercitationem animi vel blanditiis cupiditate, deserunt.</p></div>
                 <a href="">Получить сейчас</a>
             </div>
         </div>
     </div>
-    <div class="brown flex center">
+    <!-- <div class="brown flex center">
         <div class="posts">
             <h2>Последние новости</h2>
             <div class="post1">
@@ -99,7 +101,7 @@
                 <li>Карта</li>
             </ul>
         </div>
-    </div>
+    </div> -->
     <script>
         (function() 
             {
