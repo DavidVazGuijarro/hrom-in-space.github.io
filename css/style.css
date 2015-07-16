@@ -4,7 +4,6 @@
 
 .blue {
     background-color: #354556;
-    z-index: 5;
 }
 
 .white {
@@ -37,7 +36,12 @@
         -ms-flex-direction: column;
             flex-direction: column;
 }
+.stretch {
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
 
+}
 
 .center {
     -webkit-justify-content: center;
@@ -47,6 +51,8 @@
         -ms-flex-align: center;
             align-items: center;
 }
+
+
 
 .space_around {
     -webkit-justify-content: space-around;
@@ -67,13 +73,12 @@
 }
 
 
+
 /*-----------------*\
     #
 \*-----------------*/
 
-.header {
-    /*height: 50px;*/
-}
+
 
 .banner {
     height: 550px;
@@ -121,8 +126,6 @@
     #Logo
 \*-----------------*/
 
-
-
 .logo:after {
     content: '';
     display: inline-block;
@@ -130,7 +133,6 @@
     background-image: url(/img/logo.png);
     width: 8px;
     height: 8px;
-    bottom: 13px;
     bottom: 13px;
     left: 4px;
 }
@@ -140,39 +142,25 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    padding: 10px 0;
+    padding: 10px 5px;
     text-decoration: none;
-    margin-left: 5px;
 }
 
 /*-----------------*\
     #Navigation
 \*-----------------*/
+
 .navigate a {
     color: #9bded1;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-decoration: none;
-    -ms-flex-preferred-size: 1;
-            -webkit-flex-basis: 1;
-            flex-basis: 1;
     text-align: center;
     padding: 15px 5px;
-    display: block;
-
 }
-
-.navigate {
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
-
-
 .navigate>a:hover {
     color: white;
 }
-
 .navigate>a:active {
     text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
 }
@@ -189,16 +177,6 @@
     -ms-flex-preferred-size: auto;
             -webkit-flex-basis: auto;
             flex-basis: auto;
-    }
-
-    .navigate {
-        display: none;
-        z-index: 10;
-
-    }
-
-    .nav1 {
-        z-index: 15
     }
 
     .nav_toggle {
@@ -226,6 +204,9 @@
         font-weight: 400;
 
     }
+        .navigate a:first-child {
+        border-top: 1px solid white;
+    }
         
     .flex {
         -ms-flex-preferred-size: 100%;
@@ -238,27 +219,14 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-    visibility: hidden;
-    max-height: 0;
     }
 
 
 
-    .animation {
-        visibility: visible;
-        max-height: 500px;
-        transition-property: all;
-        transition-duration: 10s;
-        -webkit-justify-content: flex-end;
-            -ms-flex-pack: end;
-                justify-content: flex-end;
+    .visible {
+        display: none;
     }
-    .header_sub {
-        border-bottom: 1px solid white;
-    }
+
 }
 
 

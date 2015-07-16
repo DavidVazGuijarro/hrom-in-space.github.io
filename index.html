@@ -14,12 +14,12 @@
 </head>
 <body>
     <div class="green flex center">
-    <div class="green header conteiner flex center wrap full space_between">
-        <div ID="navigate2" class="green flex nav1 center space_between">
+    <div class="conteiner flex wrap full space_between">
+        <div class="flex center space_between">
             <a class="logo" href="">Whitesquare</a>
             <a href="#" ID="nav_toggle" class="nav_toggle"></a>
         </div>    
-        <nav ID="navigate" class="green navigate flex m_column nav__items-visible">
+        <nav ID="navigate" class=" navigate flex m_column stretch visible">
             <a href="">Главная</a>
             <a href="">О нас</a>
             <a href="">Услуги</a>
@@ -54,7 +54,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="brown flex center">
+    <div class="brown flex center">
         <div class="posts">
             <h2>Последние новости</h2>
             <div class="post1">
@@ -99,22 +99,18 @@
                 <li>Карта</li>
             </ul>
         </div>
-    </div> -->
-<script>
-    (function() 
-        {
-        var toggle = document.querySelector("#nav_toggle");
-        var nav = document.querySelector("#navigate");
-        var navigate2 = document.querySelector("#navigate2");
-
-        toggle.addEventListener("click", function(e) {
-            e.preventDefault();
-            nav.classList.contains("animation") ? nav.classList.remove("animation") : nav.classList.add("animation");
-            navigate2.classList.contains("header_sub") ? navigate2.classList.remove("header_sub") : navigate2.classList.add("header_sub");
-            
-            });
-        }
-    )();
+    </div>
+    <script>
+        (function() 
+            {
+            var toggle = document.querySelector("#nav_toggle");
+            var nav = document.querySelector("#navigate");
+            toggle.addEventListener("click", function(e) {
+                e.preventDefault();
+                nav.classList.contains("visible") ? nav.classList.remove("visible"  ) : nav.classList.add("visible");
+                });
+            }
+        )();
     </script>
 </body>
 </html>
