@@ -54,7 +54,9 @@
 }
 
 .flex_start {
-    align-items: flex-start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 
 .space_around {
@@ -319,11 +321,15 @@
     } 
 
     .m_center {
-        align-items: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .m_column {
-        flex-direction: column;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .need p,
     .block3 h4{
@@ -337,6 +343,8 @@
     }
 
     .none {
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
     }
 }
