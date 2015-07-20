@@ -491,8 +491,13 @@ ul>li:not(:first-child) {
     padding-left: 0px;
 }
 
-.footer ul:not(:first-child) {
-    padding-left: 4em;
+.footer ul:not(:last-child) {
+    padding-right: 4em;
+    padding-left: 0em;
+}
+
+.footer ul:last-child {
+    padding-left: 0em;
 }
 
 .footer ul {
@@ -524,31 +529,42 @@ ul>li:not(:first-child) {
 
 
 @media screen and (max-width: 820px) {
-    
     .logo_footer {
         display: none;
     }
+    .map {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
 
     
+
+    .footer {
+        height: 100%;
+    }
+
+    ul>li:not(:first-child) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    .map {
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .map ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
