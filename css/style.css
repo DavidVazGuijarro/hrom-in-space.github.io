@@ -555,7 +555,9 @@ ul>li:not(:first-child) {
 @media screen and (max-width: 440px) {
 
     .map {
-        flex-direction: column;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-left: 10%;
     }
 
@@ -563,8 +565,4 @@ ul>li:not(:first-child) {
         margin: 0px;
         padding: 0px;
     }
-
-    
-
-
 }
