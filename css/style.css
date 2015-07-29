@@ -78,7 +78,12 @@
 }
 
 
-
+.back_img {
+    background: url(/img/wind_power.jpg) center;
+}
+.back_img:before {
+    background-color: #354556;
+}
 
 
 /*-----------------*\
@@ -136,7 +141,7 @@
 @media screen and (max-width: 640px) {
     
     .navigate {
-    margin-right: 1%;
+    margin-right: 0%;
 }
 
     .nav_toggle {
